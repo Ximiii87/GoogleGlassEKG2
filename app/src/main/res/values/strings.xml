@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Google Glass EKG</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="btnSend">Send</string>
+    <string name="enterTheID">Enter the id!</string>
+    <string name="enterTheId"></string>
+    <string name="title_activity_heart_beat">HeartBeatActivity</string>
+    <string name="heartBeatBtn">Send</string>
+</resources>
