@@ -25,4 +25,5 @@ dependencies {
     compile 'com.android.support:appcompat-v7:23.0.0'
     debugCompile(name:'signalr-client-sdk-android-debug', ext:'aar')
     releaseCompile(name:'signalr-client-sdk-android-release', ext:'aar')
+    compile files('libs/java_websocket.jar')
 }
