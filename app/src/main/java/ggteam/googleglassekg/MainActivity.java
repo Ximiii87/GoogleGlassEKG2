@@ -9,6 +9,9 @@ import android.view.View;
 import android.widget.EditText;
 import android.widget.Toast;
 
+import microsoft.aspnet.signalr.client.Platform;
+import microsoft.aspnet.signalr.client.http.android.AndroidPlatformComponent;
+
 public class MainActivity extends AppCompatActivity {
 
     public final static String EXTRA_MESSAGE = "ggteam.googleglassekg.MESSAGE";
@@ -16,6 +19,8 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        Platform.loadPlatformComponent(new AndroidPlatformComponent());
     }
 
     //Seems like onClickBtn on really works when you only have one of them in an activity?
